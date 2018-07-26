@@ -60,6 +60,7 @@ pyspades/world.cpp
 #misc
 .DS_Store
 .cache
+.env
 
 # coverage
 .coverage
