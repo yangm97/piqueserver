@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
     piqueserver:
-        # image: TODO
+        image: ${P_IMAGE:-piqueserver/piqueserver}:${P_TAG:-dev}
         volumes:
             - config:/config
         ports:
